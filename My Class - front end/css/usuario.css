@@ -1,0 +1,240 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: white;
+  margin: 0 auto;
+  position: relative;
+  border: 0px;
+}
+.container {
+  margin: 3.125rem auto;
+  width: 61.25rem;
+}
+.form {
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid darkslategrey;
+  border-radius: 1rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 35rem;
+}
+.form input {
+  padding-left: 0.5rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12pt;
+  outline: none;
+  border: 1px solid darkslategrey;
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  width: 22.1rem;
+}
+.form input:focus {
+  border-color: rgb(2, 179, 182);
+}
+.form select {
+  height: 2.5rem;
+  width: 22.1rem;
+  outline: none;
+  border: 1px solid darkslategrey;
+  border-radius: 0.5rem;
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.5;
+  padding-left: 5px;
+  font-size: 12pt;
+}
+.form select:focus {
+  border-color: rgb(2, 179, 182);
+}
+.label-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.label {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+}
+hr {
+  width: 32rem;
+}
+/**foto perfil**/
+.foto-perfil{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10rem;
+  border: 5px solid darkslategrey;
+  overflow: hidden;
+}
+.foto{
+  object-fit: cover;
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
+  overflow: hidden;
+}
+.label-botao{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 1px solid darkslategrey;
+  background-color: darkslategrey;
+  border-radius: 1rem;
+}
+.label-botao::before{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.label-botao i{
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+}
+.label-botao:hover{
+  opacity: .7;
+}
+#enviar-foto{
+  cursor: pointer;
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  opacity: 0;
+}
+.p-image {
+  position: absolute;
+  top: 167px;
+  right: 30px;
+  color: #666666;
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+.p-image:hover {
+  transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+/**senha**/
+#ver-senha {
+  margin: 0;
+  position: absolute;
+  top: -0.075rem;
+  right: -0.075rem;
+  bottom: -0.075rem;
+  opacity: 0;
+  outline: none;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+#senha {
+  width: 22.1rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: -0.075rem;
+  left: -0.075rem;
+  bottom: -0.075rem;
+}
+.olho-pai {
+  margin-left: 0.125rem;
+  position: relative;
+  display: inline-block;
+  height: 2.5rem;
+  width: 22.1rem;
+}
+.olho {
+  position: absolute;
+  top: 0.175rem;
+  right: 0.4rem;
+  bottom: -0.075rem;
+  z-index: 6;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  font-size: 1.5rem;
+  color: #231f20;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 1.2rem;
+}
+.olho::before{
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.olho:hover{
+  background-color: rgb(206, 206, 206);
+}
+/**senha**/
+#salvar {
+  outline: none;
+  margin-top: 0.8rem;
+  cursor: pointer;
+  width: 4.5rem;
+  height: 2.5rem;
+  color: white;
+  background-color: darkslategrey;
+  border: none;
+  border-radius: 0.5rem;
+  font: "Nunito Sans", sans-serif;
+  font-size: 14pt;
+}
+#salvar:hover {
+  background-color: rgb(65, 107, 107);
+}
+#desc{
+  resize: none;
+  border: 1px solid darkslategrey;
+  border-radius: 1rem;
+  width: 30rem;
+  height: 12.5rem;
+  font: "Nunito Sans", sans-serif 12pt;
+  outline: none;
+}
+.voltar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.voltar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  top: -28rem;
+  left: -15.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  
+  border-radius: 10rem;
+  
+}
+.voltar:hover{
+  background-color: lavender;
+}
+.voltar a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: darkslategrey;
+}

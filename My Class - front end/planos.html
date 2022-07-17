@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/site.webmanifest" />
+    <link rel="mask-icon" href="./img/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/planos.css" />
+    <link rel="stylesheet" href="./css/cabecalho.css" />
+    <link rel="stylesheet" href="./css/rodape.css" />
+    <link rel="stylesheet" href="./css/all.css">
+    <title>My Class - Planos de aula</title>
+  </head>
+
+  <body>
+    <header class="barra-de-titulo">
+      <div class="header">
+        <div class="logo">
+          <a href="./index.html">
+            <img class="imagem" src="./img/logo.svg" />
+          </a>
+        </div>
+
+        <div class="barra">
+          <form action="pesquisar.php" method="POST" name="pesquisar">
+            <input type="text" placeholder="Pesquise por planos de aula" id="pesquisa"/>
+          </form>
+        </div>
+
+        <div class="conta">
+          <a href="usuario.html">Minha conta</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="geral">
+      <div class="container">
+        <div class="filtro">
+          <h2>Filtre por matéria</h2>
+
+          <h3>Linguagens</h3>
+
+          <div>
+            <input type="radio" id="lpl" name="materia" value="lpl" />
+            <label for="huey">Língua portuguesa</label>
+          </div>
+
+          <div>
+            <input type="radio" id="ing" name="materia" value="ing" />
+            <label for="huey">Língua inglesa</label>
+          </div>
+
+          <div>
+            <input type="radio" id="esp" name="materia" value="esp" />
+            <label for="huey">Espanhol</label>
+          </div>
+
+          <div>
+            <input type="radio" id="lit" name="materia" value="lit" />
+            <label for="huey">Literatura</label>
+          </div>
+
+          <h3>Ciências exatas e da natureza</h3>
+
+          <div>
+            <input type="radio" id="mat" name="materia" value="mat" />
+            <label for="huey">Matemática</label>
+          </div>
+
+          <div>
+            <input type="radio" id="fis" name="materia" value="fis" />
+            <label for="huey">Física</label>
+          </div>
+
+          <div>
+            <input type="radio" id="qui" name="materia" value="qui" />
+            <label for="huey">Química</label>
+          </div>
+
+          <div>
+            <input type="radio" id="bio" name="materia" value="bio" />
+            <label for="huey">Biologia</label>
+          </div>
+
+          <h3>Humanas</h3>
+
+          <div>
+            <input type="radio" id="geo" name="materia" value="geo" />
+            <label for="huey">Geografia</label>
+          </div>
+
+          <div>
+            <input type="radio" id="his" name="materia" value="his" />
+            <label for="huey">História</label>
+          </div>
+
+          <div>
+            <input type="radio" id="soc" name="materia" value="soc" />
+            <label for="huey">Sociologia</label>
+          </div>
+
+          <div>
+            <input type="radio" id="fil" name="materia" value="fil" />
+            <label for="huey">Filosofia</label>
+          </div>
+
+          <hr />
+        </div>
+
+        <div class="planos-aula">
+          <div id="plano1">
+            <h2>Título do plano de aula</h2>
+
+            <p>Descrição do plano de aula ou resumo</p>
+
+            <label class="tag-materia">Língua portuguesa</label>
+
+            <a href="#" title="Fazer o download do conteúdo">
+              <i class="fas fa-arrow-circle-down"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="links">
+        <div class="link-1">
+          <a href="sobre.html">Sobre nós</a>
+        </div>
+        <div class="link-2">
+          <a href="termos.html">Termos de uso</a>
+        </div>
+      </div>
+      <div class="czinho">
+        <p style="font-size: small">© 2020 My Class</p>
+      </div>
+    </footer>
+  </body>
+</html>

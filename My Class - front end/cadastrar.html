@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/site.webmanifest" />
+    <link rel="mask-icon" href="./img/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/login.css" />
+    <link rel="stylesheet" href="./css/rodape.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <title>My Class - Cadastre-se aqui</title>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="./js/ver-senha.js"></script>
+
+    <div class="global">
+      <div class="cabecalho"></div>
+
+      <div class="geral">
+        <div class="conteudo">
+          <div class="espaco"></div>
+          <div class="logo">
+            <img src="./img/logo.svg" />
+          </div>
+          <div class="texto">
+            <p>Cadastre-se aqui e tenha acesso a vários planos de aula!</p>
+          </div>
+        </div>
+
+        <div class="formulario">
+          <form>
+            <div class="inserts">
+              <div>
+                <input type="text" placeholder="Nome" />
+              </div>
+              <div class="insert2">
+                <input type="email" placeholder="Email" />
+              </div>
+              <div class="insert2">
+                <label class="olho-pai">
+                  <input type="password" id="senha" placeholder="Senha"/>
+                  <input type="checkbox" onclick="mostrarSenha()" id="ver-senha"/>
+                  <label
+                    for="ver-senha"
+                    class="fas fa-eye olho"
+                    id="olho"
+                    title="Mostrar senha"
+                  ></label>
+                </label>
+              </div>
+              <div class="insert2">
+                <input type="password" placeholder="Confirme a senha" />
+              </div>
+            </div>
+
+            <div class="botao">
+              <button type="submit">Cadastrar</button>
+            </div>
+            <div><a href="login.htm">Já possuo cadastro</a></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="links" style="padding-top: 10px;">
+        <div class="link-1">
+          <a href="sobre.html" style="color: white">Sobre nós</a>
+        </div>
+        <div class="link-2">
+          <a href="termos.html" style="color: white">Termos de uso</a>
+        </div>
+      </div>
+      <div class="czinho" style="padding-top: 10px;">
+        <p style="font-size: small">© 2020 My Class</p>
+      </div>
+    </footer>
+  </body>
+</html>

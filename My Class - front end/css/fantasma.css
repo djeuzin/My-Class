@@ -1,0 +1,163 @@
+.form-fantasma input[type="text"],
+.form-fantasma input[type="email"] {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: white;
+  background-image: none;
+  outline: none;
+  border: 1px solid darkslategray;
+  font-size: 12pt;
+  height: 40px;
+  width: 355px;
+  border-radius: 8px;
+  padding-left: 10px;
+  color: black;
+}
+.form-fantasma .file input[type="file"] {
+  opacity: 0;
+  cursor: pointer;
+}
+.file {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  height: 40px;
+  width: 355px;
+}
+.arquivo-nome {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  height: 22px;
+  width: 329px;
+  padding: 8px 16px 8px 8px;
+  line-height: 1.5;
+  color: black;
+  background-color: #fff;
+  border: 0.075rem solid darkslategrey;
+  border-radius: 0.5rem;
+  text-overflow: clip;
+  text-align: left;
+  font-family: "Nunito Sans", sans-serif;
+  text-overflow: ellipsis;
+}
+.arquivo-nome::before {
+  font-family: "Nunito Sans", sans-serif;
+  text-overflow: ellipsis;
+  position: absolute;
+  top: -0.075rem;
+  right: -0.075rem;
+  bottom: -0.075rem;
+  z-index: 6;
+  display: block;
+  float: left;
+  content: "Procurar";
+  height: 22px;
+  padding: 0.5rem 1rem;
+  line-height: 1.5;
+  color: #555;
+  background-color: #eee;
+  border: 0.075rem solid #ddd;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.form-fantasma select {
+  padding-left: 5px;
+  height: 40px;
+  width: 355px;
+  outline: none;
+  border: 1px solid darkslategrey;
+  border-radius: 0.5rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+}
+.form-fantasma select:focus {
+  border-color: rgb(2, 179, 182);
+}
+.form-fantasma input:focus {
+  border-color: rgb(2, 179, 182);
+}
+.form-fantasma textarea:focus {
+  border-color: rgb(2, 179, 182);
+}
+.form-fantasma button {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  background-color: darkslategray;
+  color: white;
+  font-size: 18pt;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 8px;
+  height: 40px;
+  width: 200px;
+  transition: .5s;
+}
+.form-fantasma button:hover{
+  background-color: rgb(65, 107, 107);
+}
+.form-fantasma {
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  width: 390px;
+  height: 27.3rem;
+  border-radius: 8px;
+  box-shadow: 4px 2px 4px rgba(47, 79, 79, 0.486);
+}
+.form-fantasma h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+.pai-fantasma {
+  z-index: 1;
+  background-image: url(../img/form-fantasma-fundo.png);
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+.filho-fantasma {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+textarea {
+  outline: none;
+  font-family: "Nunito Sans", sans-serif;
+  padding-left: 5px;
+  padding-top: 5px;
+  border: 1px solid darkslategray;
+  font-size: 12pt;
+  border-radius: 8px;
+  resize: none;
+  height: 200px;
+  width: 360px;
+}
+.proj-fantasma {
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  width: 390px;
+  height: 445px;
+  border-radius: 8px;
+  box-shadow: 4px 2px 4px rgba(47, 79, 79, 0.486);
+}
+.proj-fantasma h2,
+.proj-fantasma h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+.proj-fantasma p {
+  text-align: justify;
+  margin: 0 20px;
+}

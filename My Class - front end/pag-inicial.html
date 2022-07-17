@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/site.webmanifest" />
+    <link rel="mask-icon" href="./img/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/cabecalho.css" />
+    <link rel="stylesheet" href="./css/rodape.css" />
+    <link rel="stylesheet" href="./css/fantasma.css" />
+    <link rel="stylesheet" href="./css/animacoes.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>My Class - Página Inicial</title>
+  </head>
+
+  <body>
+    <div class="pai-fantasma" id="myForm">
+      <div class="filho-fantasma">
+        <div class="form-fantasma ">
+          <form>
+            <h2 style="margin: 10px 0 0 0;">Novo projeto</h2>
+            <div style="padding-top: 10px">
+              <input type="text" placeholder="Título do projeto" />
+            </div>
+            <div style="padding-top: 10px">
+              <textarea
+                placeholder="Digite as especificações do projeto aqui"
+              ></textarea>
+            </div>
+            <div style="padding-top: 10px">
+              <input type="email" placeholder="Email para contato" />
+            </div>
+            <div style="padding-top: 10px">
+              <button type="submit">Enviar</button>
+            </div>
+            <div>
+              <span id="fechar" onclick="closeForm()">
+                <i class="fas fa-times"></i>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./js/form-fantasma.js"></script>
+
+    <header class="barra-de-titulo">
+      <div class="header">
+        <div class="logo">
+          <a href="./pag-inicial.html">
+            <img class="imagem" src="./img/logo.svg" />
+          </a>
+        </div>
+
+        <div class="barra">
+          <form action="pesquisar.php" method="POST" name="pesquisar">
+            <input type="text" placeholder="Pesquise por planos de aula" id="pesquisa"/>
+          </form>
+        </div>
+
+        <div class="conta">
+          <a href="usuario.html">Minha conta</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="geral">
+      <div class="menu">
+        <nav>
+          <a href="#">Língua portuguesa</a> | <a href="#">Matemática</a> |
+          <a href="#">Geografia</a> | <a href="#">História</a> |
+          <a href="#">Sociologia</a> | <a href="#">Filosofia</a> |
+          <a href="#">Biologia</a> | <a href="#">Química</a> |
+          <a href="#">Física</a> | <a href="planos.html">Todos os planos</a>
+        </nav>
+      </div>
+
+      <div class="imagem-fundo">
+        <div class="principal">
+          <div class="titulo">
+            <p>Um mural para compartilhar seus projetos</p>
+          </div>
+          <div class="descricao">
+            <p>
+              Na área de projetos você pode disponibilizar suas ideias ou
+              procurar por colaborações
+            </p>
+            <p>Comece agora mesmo</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tutorial">
+        <h2 id="titulo-aviso">Materiais recomendados</h2>
+        <p id="aviso">Parece que você ainda não tem uma matéria favorita. Na página de usuário você pode selecionar uma e com base nela recomendaremos planos de aula para você</p>
+      
+        <div class="planos-aula">
+          <div id="plano1">
+            <h2>Título do plano de aula</h2>
+
+            <p>Descrição do plano de aula ou resumo</p>
+
+            <label class="tag-materia">Língua portuguesa</label>
+
+            <a href="#" title="Fazer o download do conteúdo">
+              <i class="fas fa-arrow-circle-down"></i>
+            </a>
+          </div>
+
+          <div id="plano1">
+            <h2>Título do plano de aula</h2>
+
+            <p>Descrição do plano de aula ou resumo</p>
+
+            <label class="tag-materia">Língua portuguesa</label>
+
+            <a href="#" title="Fazer o download do conteúdo">
+              <i class="fas fa-arrow-circle-down"></i>
+            </a>
+          </div>
+
+          <div id="plano1">
+            <h2>Título do plano de aula</h2>
+
+            <p>Descrição do plano de aula ou resumo</p>
+
+            <label class="tag-materia">Língua portuguesa</label>
+
+            <a href="#" title="Fazer o download do conteúdo">
+              <i class="fas fa-arrow-circle-down"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="area-mural">
+        <div class="mural">
+          <div class="conteudo">
+            <h2>My Class - Projetos</h2>
+
+            <div class="projetos">
+              <div id="p1">
+                <h3>Exemplo</h3>
+                <p>
+                  Aqui está um exemplo de como os projetos serão exibidos em nosso mural
+                </p>
+              </div>
+            </div>
+
+            <button id="abre" onclick="openForm()">Criar projeto</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="links">
+        <div class="link-1">
+          <a href="sobre.html">Sobre nós</a>
+        </div>
+        <div class="link-2">
+          <a href="termos.html">Termos de uso</a>
+        </div>
+      </div>
+      <div class="czinho">
+        <p style="font-size: small">© 2020 My Class</p>
+      </div>
+    </footer>
+  </body>
+</html>

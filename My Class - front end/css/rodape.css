@@ -1,0 +1,35 @@
+footer {
+  font-family: "Segoe UI";
+  color: white;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(31, 30, 30);
+}
+.links {
+  margin: 0 auto;
+  padding-top: 20px;
+  height: 25px;
+  width: 265px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+}
+.links a:hover{
+  text-decoration: underline;
+}
+.link-1 {
+  display: inline-block;
+  width: 100px;
+  height: 100%;
+}
+.link-2 {
+  display: inline-block;
+  width: 120px;
+  height: 100%;
+}
+.czinho {
+  margin: 0 auto;
+  width: 120px;
+}

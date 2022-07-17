@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="396.265mm" height="148.15mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 161305.63 60306.7"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil4 {fill:none}
+    .fil2 {fill:#008F40}
+    .fil5 {fill:#00B050}
+    .fil3 {fill:#97D256}
+    .fil0 {fill:white}
+    .fil1 {fill:url(#id2)}
+    .fnt0 {font-weight:300;font-size:41302.38px;font-family:'Bebas Neue Light'}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-0 0l10447.49 0c5745.89,0 10447.04,4701.15 10447.04,10447.04l0 10447.49 -10447.49 0c-5745.89,0 -10447.04,-4701.15 -10447.04,-10447.04l0 -10447.49z"/>
+   </clipPath>
+   <clipPath id="id1">
+    <path d="M38018.95 4866.06l0 8014.42c0,4407.74 -3606.31,8014.05 -8014.05,8014.05l-8014.42 0 0 -8014.42c0,-4407.74 3606.31,-8014.05 8014.05,-8014.05l8014.42 0z"/>
+   </clipPath>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="22043.11" y1="43915.25" x2="-3805.57" y2="18928.2">
+   <stop offset="0" style="stop-opacity:1; stop-color:red"/>
+   <stop offset="0.631373" style="stop-opacity:1; stop-color:#F84F4F"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#F09E9E"/>
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <text x="40744.05" y="55735.08"  class="fil0 fnt0">My class</text>
+  <rect class="fil1" x="2.73" y="22251.73" width="38054.97" height="38054.97" rx="7967.2" ry="7967.2"/>
+  <path class="fil2" d="M-0 0l10447.49 0c5745.89,0 10447.04,4701.15 10447.04,10447.04l0 10447.49 -10447.49 0c-5745.89,0 -10447.04,-4701.15 -10447.04,-10447.04l0 -10447.49z"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_2711648162272">
+    <rect class="fil3" transform="matrix(1.41725 -1.41117 1.41117 1.41725 -42083 33808.7)" width="26853.88" height="24915.24"/>
+   </g>
+  </g>
+  <path class="fil4" d="M-0 0l10447.49 0c5745.89,0 10447.04,4701.15 10447.04,10447.04l0 10447.49 -10447.49 0c-5745.89,0 -10447.04,-4701.15 -10447.04,-10447.04l0 -10447.49z"/>
+  <path class="fil5" d="M38018.95 4866.06l0 8014.42c0,4407.74 -3606.31,8014.05 -8014.05,8014.05l-8014.42 0 0 -8014.42c0,-4407.74 3606.31,-8014.05 8014.05,-8014.05l8014.42 0z"/>
+  <g style="clip-path:url(#id1)">
+   <g id="_2711648156896">
+    <rect class="fil3" transform="matrix(1.08252 1.08719 -1.08719 1.08252 43250.4 -343.033)" width="26853.88" height="24915.24"/>
+   </g>
+  </g>
+  <path class="fil4" d="M38018.95 4866.06l0 8014.42c0,4407.74 -3606.31,8014.05 -8014.05,8014.05l-8014.42 0 0 -8014.42c0,-4407.74 3606.31,-8014.05 8014.05,-8014.05l8014.42 0z"/>
+ </g>
+</svg>

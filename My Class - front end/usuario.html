@@ -1,0 +1,230 @@
+<html>
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/site.webmanifest" />
+    <link rel="mask-icon" href="./img/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/usuario.css" />
+    <link rel="stylesheet" href="./css/cabecalho.css" />
+    <link rel="stylesheet" href="./css/rodape.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <title>My Class - Meu perfil</title>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-latest.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <script type="text/javascript" src="./js/ver-senha.js"></script>
+
+    <header class="barra-de-titulo">
+      <div class="header">
+        <div class="logo">
+          <a href="./pag-inicial.html">
+            <img class="imagem" src="./img/logo.svg" />
+          </a>
+        </div>
+
+        <div class="barra">
+          <form action="pesquisar.php" method="POST" name="pesquisar">
+            <input
+              type="text"
+              placeholder="Pesquise por planos de aula"
+              id="pesquisa"
+            />
+          </form>
+        </div>
+
+        <div class="conta">
+          <a href="sair.php">Sair</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="form">
+        <h2>Meu perfil</h2>
+        <form>
+          <div
+            class="label-wrap"
+            style="flex-direction: column; align-items: center"
+          >
+            <div class="label">
+              <label>Foto de perfil:</label>
+            </div>
+
+            <div class="foto-perfil">
+              <img class="foto" src="./img/padrao.svg" />
+            </div>
+
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                height: 3rem;
+                width: 6rem;
+              "
+            >
+              <div style="margin-top: 0.3rem; height: 3rem; width: 3rem">
+                <label class="label-botao" title="Adicionar foto">
+                  <input
+                    class="enviar-foto"
+                    type="file"
+                    accept="image/*"
+                    id="enviar-foto"
+                  />
+                  <i
+                    class="fas fa-camera botao-upload"
+                  ></i>
+                </label>
+              </div>
+
+              <div style="margin: 0.3rem 0 0 1rem; height: 3rem; width: 3rem">
+                <label class="label-botao" id="apagar-foto" title="Excluir foto">
+                  <i class="fas fa-times"></i>
+                </label>
+              </div>
+            </div>
+
+            <script>
+              function readURL(input) {
+                if (input.files && input.files[0]) {
+                  var reader = new FileReader();
+
+                  reader.onload = function (e) {
+                    $(".foto").attr("src", e.target.result);
+                  };
+
+                  reader.readAsDataURL(input.files[0]);
+                }
+              }
+
+              $(".enviar-foto").change(function () {
+                readURL(this);
+              });
+
+              $(document).ready(function () {
+                $("#apagar-foto").click(function () {
+                  $(".foto").attr("src", "./img/padrao.svg");
+                });
+              });
+            </script>
+          </div>
+
+          <hr />
+
+          <div class="label-wrap">
+            <div class="label">
+              <label for="nome">Nome:</label>
+            </div>
+
+            <input type="text" id="nome" />
+          </div>
+
+          <hr />
+
+          <div class="label-wrap">
+            <div class="label">
+              <label for="email">Email:</label>
+            </div>
+            <input type="email" />
+          </div>
+
+          <hr />
+
+          <div class="label-wrap">
+            <div class="label">
+              <label for="senha">Senha:</label>
+            </div>
+
+            <label class="olho-pai">
+              <input type="password" id="senha" />
+              <input type="checkbox" onclick="mostrarSenha()" id="ver-senha" />
+              <label
+                for="ver-senha"
+                class="fas fa-eye olho"
+                id="olho"
+                title="Mostrar senha"
+              ></label>
+            </label>
+          </div>
+
+          <hr />
+
+          <div>
+            <div class="label-wrap">
+              <div class="label">Matéria favorita:</div>
+              <select name="materias" id="materias">
+                <option value="" disabled selected>Escolher</option>
+                <optgroup label="Linguagens">
+                  <option value="ptg">Língua portuguesa</option>
+                  <option value="ing">Inglês</option>
+                  <option value="esp">Espanhol</option>
+                  <option value="lit">Literatura</option>
+                </optgroup>
+                <optgroup label="Exatas e natureza">
+                  <option value="qui">Química</option>
+                  <option value="mat">Matemática</option>
+                  <option value="fis">Física</option>
+                  <option value="bio">Biologia</option>
+                </optgroup>
+                <optgroup label="Humanas">
+                  <option value="geo">Geografia</option>
+                  <option value="his">História</option>
+                  <option value="soc">Sociologia</option>
+                  <option value="fil">Filosofia</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <button type="submit" id="salvar">Salvar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="links">
+        <div class="link-1">
+          <a href="sobre.html">Sobre nós</a>
+        </div>
+        <div class="link-2">
+          <a href="termos.html">Termos de uso</a>
+        </div>
+      </div>
+      <div class="czinho">
+        <p style="font-size: small">© 2020 My Class</p>
+      </div>
+    </footer>
+  </body>
+</html>

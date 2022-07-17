@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="15.5079mm" height="8.278mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 67.76 36.17"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#231F20;stroke-width:3.55;stroke-miterlimit:22.9256}
+    .str2 {stroke:white;stroke-width:3.55;stroke-miterlimit:22.9256}
+    .str1 {stroke:#231F20;stroke-width:0.87;stroke-miterlimit:22.9256}
+    .str3 {stroke:white;stroke-width:0.87;stroke-miterlimit:22.9256}
+    .fil0 {fill:none}
+    .fil1 {fill:#231F20}
+    .fil2 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2580303651776">
+   <path class="fil0 str0" d="M1.8 18.08c10.74,8.16 21.48,16.31 32.22,16.31 10.74,0 21.48,-8.16 32.22,-16.31"/>
+   <circle class="fil1 str1" transform="matrix(0.154115 -0.154115 -0.154115 -0.154115 65.953 18.3098)" r="6.27"/>
+   <circle class="fil1 str1" transform="matrix(0.154115 -0.154115 -0.154115 -0.154115 1.80301 18.084)" r="6.27"/>
+   <path class="fil0 str0" d="M1.8 18.08c10.74,-8.16 21.48,-16.31 32.22,-16.31 10.74,0 21.48,8.16 32.22,16.31"/>
+   <circle class="fil1 str1" transform="matrix(0.154115 0.154115 -0.154115 0.154115 65.9525 17.8581)" r="6.27"/>
+   <circle class="fil1 str1" transform="matrix(0.154115 0.154115 -0.154115 0.154115 1.80258 18.084)" r="6.27"/>
+   <circle class="fil1" cx="33.34" cy="17.33" r="8.67"/>
+  </g>
+  <line class="fil0 str2" x1="15.41" y1="2.48" x2="54.47" y2= "31.27" />
+  <circle class="fil2 str3" transform="matrix(0.0921995 0.0921995 -0.0921995 0.0921995 15.4121 2.47715)" r="6.27"/>
+  <circle class="fil2 str3" transform="matrix(0.0921995 0.0921995 -0.0921995 0.0921995 54.4745 31.2671)" r="6.27"/>
+  <line class="fil0 str0" x1="14.59" y1="3.51" x2="53.66" y2= "32.3" />
+  <circle class="fil1 str1" transform="matrix(0.150249 0.150249 -0.150249 0.150249 53.6573 32.296)" r="6.27"/>
+  <circle class="fil1 str1" transform="matrix(0.150249 0.150249 -0.150249 0.150249 14.5918 3.51005)" r="6.27"/>
+ </g>
+</svg>
